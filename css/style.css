@@ -15,7 +15,8 @@ body {
   }
 
   header,
-  footer {
+  footer,
+  .full-width {
     /* expando el primer casillero sobre el segundo */
     grid-column: 1 / span 2;
   }
