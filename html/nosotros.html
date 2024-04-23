@@ -12,9 +12,6 @@
     />
   </head>
   <body>
-    <header>
-      <h1 id="Titulo">Nacimos con la pandemia</h1>
-    </header>
     <nav
       class="navbar navbar-expand-lg bg-dark border-bottom border-body sticky-top"
       data-bs-theme="dark"
@@ -50,14 +47,7 @@
                 Lista de Reviews
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/nosotros.html">
-                Nuestra Historia
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/contacto.html">Contacto</a>
-            </li>
+
             <li class="nav-item">
               <a
                 class="nav-link active"
@@ -67,11 +57,23 @@
                 Nuestra Historia
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/contacto.html">Contacto</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/html/terminos-y-condiciones.html">
+                Terminos y condiciones
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main>
+    <main class="container py-5">
+      <header>
+        <h1 id="Titulo">Nacimos con la pandemia</h1>
+      </header>
       <a href="#subtitulo">Ir abajo de todo</a>
       <p>
         Era el anio 2020, con la pandemia estaabmos con mucho tiempo libre y
@@ -359,10 +361,30 @@
       </ol>
     </main>
 
-    <footer>
-      <h3 id="subtitulo">Llegaste al final</h3>
-      <a href="#Titulo">Volver arriba</a>
-      <a href="/index.html">Volver al inicio</a>
+    <footer class="py-4 py-md-5 border-top">
+      <div class="container text-body-secondary">
+        <a
+          class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+          href="/"
+          aria-label="Inicio"
+        >
+          <img
+            width="32"
+            class="d-block me-2"
+            src="/img/icons8-opinion-64.png"
+          />
+          <span class="fs-5">Los reviews de Luishi</span>
+        </a>
+        <p class="small mb-0">
+          Luishi Reviews es una marca registrada, año 2022, Buenos Aires,
+          Argentina
+        </p>
+      </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
